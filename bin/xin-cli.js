@@ -11,7 +11,6 @@ const handlebars = require('handlebars');
 program.version('0.0.1', '-v', '--version')
         .command('init <name>')
         .action((name) => {
-          // console.log(name)
           if (!fs.existsSync(name)) {
             inquirer.prompt([
               {
@@ -53,6 +52,5 @@ program.version('0.0.1', '-v', '--version')
           } else {
             console.log(symbols.error, chalk.red('项目已存在'))
           }
-          // download('github:baoqingxin/webpack-vue', 'master', {clone: true}, (err) => {
         })
 program.parse(process.argv)
