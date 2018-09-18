@@ -33,6 +33,8 @@ program.version('0.0.1', '-v', '--version')
                 } else {
                   spinner.succeed()
                   const fileName = `${name}/package.json`
+                  console.log(fileName)
+                  console.log(__dirname)
                   const meta = {
                     name,
                     description: answers.description,

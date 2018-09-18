@@ -1,6 +1,6 @@
 {
   "name": "xin-cli1737",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "简单的vue脚手架工具",
   "main": "index.js",
   "bin": {
